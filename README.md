@@ -22,6 +22,8 @@ This webpage will allows the user to replace a word in a given sentence.
 | User enters sentence | "This is a sentence" | "This is a sentence" |
 | User selects the word they want to replace | "sentence" | "This is a sentence" |
 | User selects the word they want to replace it with | "porcupine" | "This is a porcupine" |
+| User selects the word they want to replace | "is" | "This is a sentence" |
+| User selects the word they want to replace it with for all instances of that word | "at" | "That at a sentence" |
 
 ## Known Bugs
 
