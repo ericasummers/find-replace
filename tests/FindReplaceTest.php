@@ -31,6 +31,19 @@
             $this->assertEquals("This is a porcupine", $result);
         }
 
+        function test_regexreplace()
+        {
+
+            $test_FindReplace = new FindReplace;
+            $first_input = "This is a sentence";
+            $second_input = "is";
+            $third_input = "at";
+
+            $result = $test_FindReplace->regexReplace($first_input, $second_input, $third_input);
+
+            $this->assertEquals("That at a sentence", $result);
+        }
+
 
     }
 

@@ -11,8 +11,11 @@
             return implode(" ", $sentence_array);
         }
 
-
-
+        function regexReplace($sentence, $wordInput, $wordReplace)
+        {
+            $word_search = '/' . $wordInput . '/';
+            return preg_replace($word_search, $wordReplace, $sentence);
+        }
 
 
     }
